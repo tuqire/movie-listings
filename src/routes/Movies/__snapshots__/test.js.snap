@@ -1,0 +1,2257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`route/Movies #Movies matches snapshots when error 1`] = `
+<Movies
+  getCinemaListings={[Function]}
+  isError={true}
+>
+  <h4>
+    Error Occurred
+  </h4>
+</Movies>
+`;
+
+exports[`route/Movies #Movies matches snapshots when filters set genres and rating selected 1`] = `
+<Movies
+  genres={
+    Array [
+      Object {
+        "id": 240,
+        "name": "genre foobar",
+      },
+      Object {
+        "id": 250,
+        "name": "genre foo",
+      },
+      Object {
+        "id": 251,
+        "name": "genre bar",
+      },
+    ]
+  }
+  getCinemaListings={[Function]}
+  isError={false}
+  movies={
+    Array [
+      Object {
+        "genreIds": Array [
+          250,
+          251,
+        ],
+        "genres": Array [
+          "genre foo",
+          "genre bar",
+        ],
+        "id": 1,
+        "posterPath": "/posterPath-1",
+        "title": "movie foo",
+        "voteAverage": 5,
+      },
+      Object {
+        "genreIds": Array [
+          250,
+        ],
+        "genres": Array [
+          "genre foo",
+        ],
+        "id": 2,
+        "posterPath": "/posterPath-2",
+        "title": "movie bar",
+        "voteAverage": 6,
+      },
+      Object {
+        "genreIds": Array [
+          240,
+        ],
+        "genres": Array [
+          "genre foobar",
+        ],
+        "id": 3,
+        "posterPath": "/posterPath-3",
+        "title": "movie foobar",
+        "voteAverage": 8,
+      },
+    ]
+  }
+>
+  <div>
+    <h1
+      className="mb-4"
+    >
+      Movies On Cinema Now
+    </h1>
+    <Component
+      genres={
+        Array [
+          Object {
+            "id": 240,
+            "name": "genre foobar",
+          },
+          Object {
+            "id": 250,
+            "name": "genre foo",
+          },
+          Object {
+            "id": 251,
+            "name": "genre bar",
+          },
+        ]
+      }
+      onGenreChanged={[Function]}
+      onRatingsChange={[Function]}
+      ratings={
+        Array [
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          6,
+          6.5,
+          7,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+        ]
+      }
+      selectedGenres={
+        Array [
+          250,
+        ]
+      }
+      selectedRating={5}
+    >
+      <div
+        className="mb-4"
+      >
+        <strong
+          className="d-block mb-2"
+        >
+          Lowest rating:
+        </strong>
+        <select
+          onChange={[Function]}
+          value={5}
+        >
+          <option
+            key="0.5"
+            value={0.5}
+          >
+            0.5
+          </option>
+          <option
+            key="1"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="1.5"
+            value={1.5}
+          >
+            1.5
+          </option>
+          <option
+            key="2"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="2.5"
+            value={2.5}
+          >
+            2.5
+          </option>
+          <option
+            key="3"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="3.5"
+            value={3.5}
+          >
+            3.5
+          </option>
+          <option
+            key="4"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="4.5"
+            value={4.5}
+          >
+            4.5
+          </option>
+          <option
+            key="5"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="5.5"
+            value={5.5}
+          >
+            5.5
+          </option>
+          <option
+            key="6"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="6.5"
+            value={6.5}
+          >
+            6.5
+          </option>
+          <option
+            key="7"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="7.5"
+            value={7.5}
+          >
+            7.5
+          </option>
+          <option
+            key="8"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="8.5"
+            value={8.5}
+          >
+            8.5
+          </option>
+          <option
+            key="9"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="9.5"
+            value={9.5}
+          >
+            9.5
+          </option>
+          <option
+            key="10"
+            value={10}
+          >
+            10
+          </option>
+        </select>
+      </div>
+      <strong
+        className="d-block mb-2"
+      >
+        Genres:
+      </strong>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="240"
+        >
+          <label>
+            <input
+              checked={false}
+              className="genre-checkbox-240 mr-2"
+              name="genre-checkbox-240"
+              onChange={[Function]}
+              type="checkbox"
+              value={240}
+            />
+            genre foobar
+          </label>
+        </div>
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="250"
+        >
+          <label>
+            <input
+              checked={true}
+              className="genre-checkbox-250 mr-2"
+              name="genre-checkbox-250"
+              onChange={[Function]}
+              type="checkbox"
+              value={250}
+            />
+            genre foo
+          </label>
+        </div>
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="251"
+        >
+          <label>
+            <input
+              checked={false}
+              className="genre-checkbox-251 mr-2"
+              name="genre-checkbox-251"
+              onChange={[Function]}
+              type="checkbox"
+              value={251}
+            />
+            genre bar
+          </label>
+        </div>
+      </div>
+    </Component>
+    <Component
+      movies={
+        Array [
+          Object {
+            "genreIds": Array [
+              250,
+              251,
+            ],
+            "genres": Array [
+              "genre foo",
+              "genre bar",
+            ],
+            "id": 1,
+            "posterPath": "/posterPath-1",
+            "title": "movie foo",
+            "voteAverage": 5,
+          },
+          Object {
+            "genreIds": Array [
+              250,
+            ],
+            "genres": Array [
+              "genre foo",
+            ],
+            "id": 2,
+            "posterPath": "/posterPath-2",
+            "title": "movie bar",
+            "voteAverage": 6,
+          },
+        ]
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+          key="1"
+        >
+          <Component
+            movie={
+              Object {
+                "genreIds": Array [
+                  250,
+                  251,
+                ],
+                "genres": Array [
+                  "genre foo",
+                  "genre bar",
+                ],
+                "id": 1,
+                "posterPath": "/posterPath-1",
+                "title": "movie foo",
+                "voteAverage": 5,
+              }
+            }
+          >
+            <div
+              className="movies-list-item"
+            >
+              <h4>
+                movie foo
+              </h4>
+              <h6
+                className="h6 text-muted small"
+              >
+                Genres: 
+                genre foo, genre bar
+              </h6>
+              <img
+                alt="poster for movie foo"
+                className="img-fluid mt-3"
+                src="https://image.tmdb.org/t/p/w500/posterPath-1"
+              />
+            </div>
+          </Component>
+        </div>
+        <div
+          className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+          key="2"
+        >
+          <Component
+            movie={
+              Object {
+                "genreIds": Array [
+                  250,
+                ],
+                "genres": Array [
+                  "genre foo",
+                ],
+                "id": 2,
+                "posterPath": "/posterPath-2",
+                "title": "movie bar",
+                "voteAverage": 6,
+              }
+            }
+          >
+            <div
+              className="movies-list-item"
+            >
+              <h4>
+                movie bar
+              </h4>
+              <h6
+                className="h6 text-muted small"
+              >
+                Genres: 
+                genre foo
+              </h6>
+              <img
+                alt="poster for movie bar"
+                className="img-fluid mt-3"
+                src="https://image.tmdb.org/t/p/w500/posterPath-2"
+              />
+            </div>
+          </Component>
+        </div>
+      </div>
+    </Component>
+  </div>
+</Movies>
+`;
+
+exports[`route/Movies #Movies matches snapshots when filters set multiple genres selected 1`] = `
+<Movies
+  genres={
+    Array [
+      Object {
+        "id": 240,
+        "name": "genre foobar",
+      },
+      Object {
+        "id": 250,
+        "name": "genre foo",
+      },
+      Object {
+        "id": 251,
+        "name": "genre bar",
+      },
+    ]
+  }
+  getCinemaListings={[Function]}
+  isError={false}
+  movies={
+    Array [
+      Object {
+        "genreIds": Array [
+          250,
+          251,
+        ],
+        "genres": Array [
+          "genre foo",
+          "genre bar",
+        ],
+        "id": 1,
+        "posterPath": "/posterPath-1",
+        "title": "movie foo",
+        "voteAverage": 5,
+      },
+      Object {
+        "genreIds": Array [
+          250,
+        ],
+        "genres": Array [
+          "genre foo",
+        ],
+        "id": 2,
+        "posterPath": "/posterPath-2",
+        "title": "movie bar",
+        "voteAverage": 6,
+      },
+      Object {
+        "genreIds": Array [
+          240,
+        ],
+        "genres": Array [
+          "genre foobar",
+        ],
+        "id": 3,
+        "posterPath": "/posterPath-3",
+        "title": "movie foobar",
+        "voteAverage": 8,
+      },
+    ]
+  }
+>
+  <div>
+    <h1
+      className="mb-4"
+    >
+      Movies On Cinema Now
+    </h1>
+    <Component
+      genres={
+        Array [
+          Object {
+            "id": 240,
+            "name": "genre foobar",
+          },
+          Object {
+            "id": 250,
+            "name": "genre foo",
+          },
+          Object {
+            "id": 251,
+            "name": "genre bar",
+          },
+        ]
+      }
+      onGenreChanged={[Function]}
+      onRatingsChange={[Function]}
+      ratings={
+        Array [
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          6,
+          6.5,
+          7,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+        ]
+      }
+      selectedGenres={
+        Array [
+          240,
+          251,
+        ]
+      }
+      selectedRating={3}
+    >
+      <div
+        className="mb-4"
+      >
+        <strong
+          className="d-block mb-2"
+        >
+          Lowest rating:
+        </strong>
+        <select
+          onChange={[Function]}
+          value={3}
+        >
+          <option
+            key="0.5"
+            value={0.5}
+          >
+            0.5
+          </option>
+          <option
+            key="1"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="1.5"
+            value={1.5}
+          >
+            1.5
+          </option>
+          <option
+            key="2"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="2.5"
+            value={2.5}
+          >
+            2.5
+          </option>
+          <option
+            key="3"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="3.5"
+            value={3.5}
+          >
+            3.5
+          </option>
+          <option
+            key="4"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="4.5"
+            value={4.5}
+          >
+            4.5
+          </option>
+          <option
+            key="5"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="5.5"
+            value={5.5}
+          >
+            5.5
+          </option>
+          <option
+            key="6"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="6.5"
+            value={6.5}
+          >
+            6.5
+          </option>
+          <option
+            key="7"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="7.5"
+            value={7.5}
+          >
+            7.5
+          </option>
+          <option
+            key="8"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="8.5"
+            value={8.5}
+          >
+            8.5
+          </option>
+          <option
+            key="9"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="9.5"
+            value={9.5}
+          >
+            9.5
+          </option>
+          <option
+            key="10"
+            value={10}
+          >
+            10
+          </option>
+        </select>
+      </div>
+      <strong
+        className="d-block mb-2"
+      >
+        Genres:
+      </strong>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="240"
+        >
+          <label>
+            <input
+              checked={true}
+              className="genre-checkbox-240 mr-2"
+              name="genre-checkbox-240"
+              onChange={[Function]}
+              type="checkbox"
+              value={240}
+            />
+            genre foobar
+          </label>
+        </div>
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="250"
+        >
+          <label>
+            <input
+              checked={false}
+              className="genre-checkbox-250 mr-2"
+              name="genre-checkbox-250"
+              onChange={[Function]}
+              type="checkbox"
+              value={250}
+            />
+            genre foo
+          </label>
+        </div>
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="251"
+        >
+          <label>
+            <input
+              checked={true}
+              className="genre-checkbox-251 mr-2"
+              name="genre-checkbox-251"
+              onChange={[Function]}
+              type="checkbox"
+              value={251}
+            />
+            genre bar
+          </label>
+        </div>
+      </div>
+    </Component>
+    <Component
+      movies={Array []}
+    >
+      <div
+        className="row"
+      />
+    </Component>
+  </div>
+</Movies>
+`;
+
+exports[`route/Movies #Movies matches snapshots when filters set rating selected 1`] = `
+<Movies
+  genres={
+    Array [
+      Object {
+        "id": 240,
+        "name": "genre foobar",
+      },
+      Object {
+        "id": 250,
+        "name": "genre foo",
+      },
+      Object {
+        "id": 251,
+        "name": "genre bar",
+      },
+    ]
+  }
+  getCinemaListings={[Function]}
+  isError={false}
+  movies={
+    Array [
+      Object {
+        "genreIds": Array [
+          250,
+          251,
+        ],
+        "genres": Array [
+          "genre foo",
+          "genre bar",
+        ],
+        "id": 1,
+        "posterPath": "/posterPath-1",
+        "title": "movie foo",
+        "voteAverage": 5,
+      },
+      Object {
+        "genreIds": Array [
+          250,
+        ],
+        "genres": Array [
+          "genre foo",
+        ],
+        "id": 2,
+        "posterPath": "/posterPath-2",
+        "title": "movie bar",
+        "voteAverage": 6,
+      },
+      Object {
+        "genreIds": Array [
+          240,
+        ],
+        "genres": Array [
+          "genre foobar",
+        ],
+        "id": 3,
+        "posterPath": "/posterPath-3",
+        "title": "movie foobar",
+        "voteAverage": 8,
+      },
+    ]
+  }
+>
+  <div>
+    <h1
+      className="mb-4"
+    >
+      Movies On Cinema Now
+    </h1>
+    <Component
+      genres={
+        Array [
+          Object {
+            "id": 240,
+            "name": "genre foobar",
+          },
+          Object {
+            "id": 250,
+            "name": "genre foo",
+          },
+          Object {
+            "id": 251,
+            "name": "genre bar",
+          },
+        ]
+      }
+      onGenreChanged={[Function]}
+      onRatingsChange={[Function]}
+      ratings={
+        Array [
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          6,
+          6.5,
+          7,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+        ]
+      }
+      selectedGenres={Array []}
+      selectedRating={7}
+    >
+      <div
+        className="mb-4"
+      >
+        <strong
+          className="d-block mb-2"
+        >
+          Lowest rating:
+        </strong>
+        <select
+          onChange={[Function]}
+          value={7}
+        >
+          <option
+            key="0.5"
+            value={0.5}
+          >
+            0.5
+          </option>
+          <option
+            key="1"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="1.5"
+            value={1.5}
+          >
+            1.5
+          </option>
+          <option
+            key="2"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="2.5"
+            value={2.5}
+          >
+            2.5
+          </option>
+          <option
+            key="3"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="3.5"
+            value={3.5}
+          >
+            3.5
+          </option>
+          <option
+            key="4"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="4.5"
+            value={4.5}
+          >
+            4.5
+          </option>
+          <option
+            key="5"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="5.5"
+            value={5.5}
+          >
+            5.5
+          </option>
+          <option
+            key="6"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="6.5"
+            value={6.5}
+          >
+            6.5
+          </option>
+          <option
+            key="7"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="7.5"
+            value={7.5}
+          >
+            7.5
+          </option>
+          <option
+            key="8"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="8.5"
+            value={8.5}
+          >
+            8.5
+          </option>
+          <option
+            key="9"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="9.5"
+            value={9.5}
+          >
+            9.5
+          </option>
+          <option
+            key="10"
+            value={10}
+          >
+            10
+          </option>
+        </select>
+      </div>
+      <strong
+        className="d-block mb-2"
+      >
+        Genres:
+      </strong>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="240"
+        >
+          <label>
+            <input
+              checked={false}
+              className="genre-checkbox-240 mr-2"
+              name="genre-checkbox-240"
+              onChange={[Function]}
+              type="checkbox"
+              value={240}
+            />
+            genre foobar
+          </label>
+        </div>
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="250"
+        >
+          <label>
+            <input
+              checked={false}
+              className="genre-checkbox-250 mr-2"
+              name="genre-checkbox-250"
+              onChange={[Function]}
+              type="checkbox"
+              value={250}
+            />
+            genre foo
+          </label>
+        </div>
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="251"
+        >
+          <label>
+            <input
+              checked={false}
+              className="genre-checkbox-251 mr-2"
+              name="genre-checkbox-251"
+              onChange={[Function]}
+              type="checkbox"
+              value={251}
+            />
+            genre bar
+          </label>
+        </div>
+      </div>
+    </Component>
+    <Component
+      movies={
+        Array [
+          Object {
+            "genreIds": Array [
+              240,
+            ],
+            "genres": Array [
+              "genre foobar",
+            ],
+            "id": 3,
+            "posterPath": "/posterPath-3",
+            "title": "movie foobar",
+            "voteAverage": 8,
+          },
+        ]
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+          key="3"
+        >
+          <Component
+            movie={
+              Object {
+                "genreIds": Array [
+                  240,
+                ],
+                "genres": Array [
+                  "genre foobar",
+                ],
+                "id": 3,
+                "posterPath": "/posterPath-3",
+                "title": "movie foobar",
+                "voteAverage": 8,
+              }
+            }
+          >
+            <div
+              className="movies-list-item"
+            >
+              <h4>
+                movie foobar
+              </h4>
+              <h6
+                className="h6 text-muted small"
+              >
+                Genres: 
+                genre foobar
+              </h6>
+              <img
+                alt="poster for movie foobar"
+                className="img-fluid mt-3"
+                src="https://image.tmdb.org/t/p/w500/posterPath-3"
+              />
+            </div>
+          </Component>
+        </div>
+      </div>
+    </Component>
+  </div>
+</Movies>
+`;
+
+exports[`route/Movies #Movies matches snapshots when filters set single genre selected 1`] = `
+<Movies
+  genres={
+    Array [
+      Object {
+        "id": 240,
+        "name": "genre foobar",
+      },
+      Object {
+        "id": 250,
+        "name": "genre foo",
+      },
+      Object {
+        "id": 251,
+        "name": "genre bar",
+      },
+    ]
+  }
+  getCinemaListings={[Function]}
+  isError={false}
+  movies={
+    Array [
+      Object {
+        "genreIds": Array [
+          250,
+          251,
+        ],
+        "genres": Array [
+          "genre foo",
+          "genre bar",
+        ],
+        "id": 1,
+        "posterPath": "/posterPath-1",
+        "title": "movie foo",
+        "voteAverage": 5,
+      },
+      Object {
+        "genreIds": Array [
+          250,
+        ],
+        "genres": Array [
+          "genre foo",
+        ],
+        "id": 2,
+        "posterPath": "/posterPath-2",
+        "title": "movie bar",
+        "voteAverage": 6,
+      },
+      Object {
+        "genreIds": Array [
+          240,
+        ],
+        "genres": Array [
+          "genre foobar",
+        ],
+        "id": 3,
+        "posterPath": "/posterPath-3",
+        "title": "movie foobar",
+        "voteAverage": 8,
+      },
+    ]
+  }
+>
+  <div>
+    <h1
+      className="mb-4"
+    >
+      Movies On Cinema Now
+    </h1>
+    <Component
+      genres={
+        Array [
+          Object {
+            "id": 240,
+            "name": "genre foobar",
+          },
+          Object {
+            "id": 250,
+            "name": "genre foo",
+          },
+          Object {
+            "id": 251,
+            "name": "genre bar",
+          },
+        ]
+      }
+      onGenreChanged={[Function]}
+      onRatingsChange={[Function]}
+      ratings={
+        Array [
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          6,
+          6.5,
+          7,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+        ]
+      }
+      selectedGenres={
+        Array [
+          250,
+        ]
+      }
+      selectedRating={3}
+    >
+      <div
+        className="mb-4"
+      >
+        <strong
+          className="d-block mb-2"
+        >
+          Lowest rating:
+        </strong>
+        <select
+          onChange={[Function]}
+          value={3}
+        >
+          <option
+            key="0.5"
+            value={0.5}
+          >
+            0.5
+          </option>
+          <option
+            key="1"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="1.5"
+            value={1.5}
+          >
+            1.5
+          </option>
+          <option
+            key="2"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="2.5"
+            value={2.5}
+          >
+            2.5
+          </option>
+          <option
+            key="3"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="3.5"
+            value={3.5}
+          >
+            3.5
+          </option>
+          <option
+            key="4"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="4.5"
+            value={4.5}
+          >
+            4.5
+          </option>
+          <option
+            key="5"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="5.5"
+            value={5.5}
+          >
+            5.5
+          </option>
+          <option
+            key="6"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="6.5"
+            value={6.5}
+          >
+            6.5
+          </option>
+          <option
+            key="7"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="7.5"
+            value={7.5}
+          >
+            7.5
+          </option>
+          <option
+            key="8"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="8.5"
+            value={8.5}
+          >
+            8.5
+          </option>
+          <option
+            key="9"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="9.5"
+            value={9.5}
+          >
+            9.5
+          </option>
+          <option
+            key="10"
+            value={10}
+          >
+            10
+          </option>
+        </select>
+      </div>
+      <strong
+        className="d-block mb-2"
+      >
+        Genres:
+      </strong>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="240"
+        >
+          <label>
+            <input
+              checked={false}
+              className="genre-checkbox-240 mr-2"
+              name="genre-checkbox-240"
+              onChange={[Function]}
+              type="checkbox"
+              value={240}
+            />
+            genre foobar
+          </label>
+        </div>
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="250"
+        >
+          <label>
+            <input
+              checked={true}
+              className="genre-checkbox-250 mr-2"
+              name="genre-checkbox-250"
+              onChange={[Function]}
+              type="checkbox"
+              value={250}
+            />
+            genre foo
+          </label>
+        </div>
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="251"
+        >
+          <label>
+            <input
+              checked={false}
+              className="genre-checkbox-251 mr-2"
+              name="genre-checkbox-251"
+              onChange={[Function]}
+              type="checkbox"
+              value={251}
+            />
+            genre bar
+          </label>
+        </div>
+      </div>
+    </Component>
+    <Component
+      movies={
+        Array [
+          Object {
+            "genreIds": Array [
+              250,
+              251,
+            ],
+            "genres": Array [
+              "genre foo",
+              "genre bar",
+            ],
+            "id": 1,
+            "posterPath": "/posterPath-1",
+            "title": "movie foo",
+            "voteAverage": 5,
+          },
+          Object {
+            "genreIds": Array [
+              250,
+            ],
+            "genres": Array [
+              "genre foo",
+            ],
+            "id": 2,
+            "posterPath": "/posterPath-2",
+            "title": "movie bar",
+            "voteAverage": 6,
+          },
+        ]
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+          key="1"
+        >
+          <Component
+            movie={
+              Object {
+                "genreIds": Array [
+                  250,
+                  251,
+                ],
+                "genres": Array [
+                  "genre foo",
+                  "genre bar",
+                ],
+                "id": 1,
+                "posterPath": "/posterPath-1",
+                "title": "movie foo",
+                "voteAverage": 5,
+              }
+            }
+          >
+            <div
+              className="movies-list-item"
+            >
+              <h4>
+                movie foo
+              </h4>
+              <h6
+                className="h6 text-muted small"
+              >
+                Genres: 
+                genre foo, genre bar
+              </h6>
+              <img
+                alt="poster for movie foo"
+                className="img-fluid mt-3"
+                src="https://image.tmdb.org/t/p/w500/posterPath-1"
+              />
+            </div>
+          </Component>
+        </div>
+        <div
+          className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+          key="2"
+        >
+          <Component
+            movie={
+              Object {
+                "genreIds": Array [
+                  250,
+                ],
+                "genres": Array [
+                  "genre foo",
+                ],
+                "id": 2,
+                "posterPath": "/posterPath-2",
+                "title": "movie bar",
+                "voteAverage": 6,
+              }
+            }
+          >
+            <div
+              className="movies-list-item"
+            >
+              <h4>
+                movie bar
+              </h4>
+              <h6
+                className="h6 text-muted small"
+              >
+                Genres: 
+                genre foo
+              </h6>
+              <img
+                alt="poster for movie bar"
+                className="img-fluid mt-3"
+                src="https://image.tmdb.org/t/p/w500/posterPath-2"
+              />
+            </div>
+          </Component>
+        </div>
+      </div>
+    </Component>
+  </div>
+</Movies>
+`;
+
+exports[`route/Movies #Movies matches snapshots when movies and genres in store 1`] = `
+<Movies
+  genres={
+    Array [
+      Object {
+        "id": 240,
+        "name": "genre foobar",
+      },
+      Object {
+        "id": 250,
+        "name": "genre foo",
+      },
+      Object {
+        "id": 251,
+        "name": "genre bar",
+      },
+    ]
+  }
+  getCinemaListings={[Function]}
+  isError={false}
+  movies={
+    Array [
+      Object {
+        "genreIds": Array [
+          250,
+          251,
+        ],
+        "genres": Array [
+          "genre foo",
+          "genre bar",
+        ],
+        "id": 1,
+        "posterPath": "/posterPath-1",
+        "title": "movie foo",
+        "voteAverage": 5,
+      },
+      Object {
+        "genreIds": Array [
+          250,
+        ],
+        "genres": Array [
+          "genre foo",
+        ],
+        "id": 2,
+        "posterPath": "/posterPath-2",
+        "title": "movie bar",
+        "voteAverage": 6,
+      },
+      Object {
+        "genreIds": Array [
+          240,
+        ],
+        "genres": Array [
+          "genre foobar",
+        ],
+        "id": 3,
+        "posterPath": "/posterPath-3",
+        "title": "movie foobar",
+        "voteAverage": 8,
+      },
+    ]
+  }
+>
+  <div>
+    <h1
+      className="mb-4"
+    >
+      Movies On Cinema Now
+    </h1>
+    <Component
+      genres={
+        Array [
+          Object {
+            "id": 240,
+            "name": "genre foobar",
+          },
+          Object {
+            "id": 250,
+            "name": "genre foo",
+          },
+          Object {
+            "id": 251,
+            "name": "genre bar",
+          },
+        ]
+      }
+      onGenreChanged={[Function]}
+      onRatingsChange={[Function]}
+      ratings={
+        Array [
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          6,
+          6.5,
+          7,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+        ]
+      }
+      selectedGenres={Array []}
+      selectedRating={3}
+    >
+      <div
+        className="mb-4"
+      >
+        <strong
+          className="d-block mb-2"
+        >
+          Lowest rating:
+        </strong>
+        <select
+          onChange={[Function]}
+          value={3}
+        >
+          <option
+            key="0.5"
+            value={0.5}
+          >
+            0.5
+          </option>
+          <option
+            key="1"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="1.5"
+            value={1.5}
+          >
+            1.5
+          </option>
+          <option
+            key="2"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="2.5"
+            value={2.5}
+          >
+            2.5
+          </option>
+          <option
+            key="3"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="3.5"
+            value={3.5}
+          >
+            3.5
+          </option>
+          <option
+            key="4"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="4.5"
+            value={4.5}
+          >
+            4.5
+          </option>
+          <option
+            key="5"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="5.5"
+            value={5.5}
+          >
+            5.5
+          </option>
+          <option
+            key="6"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="6.5"
+            value={6.5}
+          >
+            6.5
+          </option>
+          <option
+            key="7"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="7.5"
+            value={7.5}
+          >
+            7.5
+          </option>
+          <option
+            key="8"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="8.5"
+            value={8.5}
+          >
+            8.5
+          </option>
+          <option
+            key="9"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="9.5"
+            value={9.5}
+          >
+            9.5
+          </option>
+          <option
+            key="10"
+            value={10}
+          >
+            10
+          </option>
+        </select>
+      </div>
+      <strong
+        className="d-block mb-2"
+      >
+        Genres:
+      </strong>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="240"
+        >
+          <label>
+            <input
+              checked={false}
+              className="genre-checkbox-240 mr-2"
+              name="genre-checkbox-240"
+              onChange={[Function]}
+              type="checkbox"
+              value={240}
+            />
+            genre foobar
+          </label>
+        </div>
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="250"
+        >
+          <label>
+            <input
+              checked={false}
+              className="genre-checkbox-250 mr-2"
+              name="genre-checkbox-250"
+              onChange={[Function]}
+              type="checkbox"
+              value={250}
+            />
+            genre foo
+          </label>
+        </div>
+        <div
+          className="col-sm-6 col-4 col-lg-3"
+          key="251"
+        >
+          <label>
+            <input
+              checked={false}
+              className="genre-checkbox-251 mr-2"
+              name="genre-checkbox-251"
+              onChange={[Function]}
+              type="checkbox"
+              value={251}
+            />
+            genre bar
+          </label>
+        </div>
+      </div>
+    </Component>
+    <Component
+      movies={
+        Array [
+          Object {
+            "genreIds": Array [
+              250,
+              251,
+            ],
+            "genres": Array [
+              "genre foo",
+              "genre bar",
+            ],
+            "id": 1,
+            "posterPath": "/posterPath-1",
+            "title": "movie foo",
+            "voteAverage": 5,
+          },
+          Object {
+            "genreIds": Array [
+              250,
+            ],
+            "genres": Array [
+              "genre foo",
+            ],
+            "id": 2,
+            "posterPath": "/posterPath-2",
+            "title": "movie bar",
+            "voteAverage": 6,
+          },
+          Object {
+            "genreIds": Array [
+              240,
+            ],
+            "genres": Array [
+              "genre foobar",
+            ],
+            "id": 3,
+            "posterPath": "/posterPath-3",
+            "title": "movie foobar",
+            "voteAverage": 8,
+          },
+        ]
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+          key="1"
+        >
+          <Component
+            movie={
+              Object {
+                "genreIds": Array [
+                  250,
+                  251,
+                ],
+                "genres": Array [
+                  "genre foo",
+                  "genre bar",
+                ],
+                "id": 1,
+                "posterPath": "/posterPath-1",
+                "title": "movie foo",
+                "voteAverage": 5,
+              }
+            }
+          >
+            <div
+              className="movies-list-item"
+            >
+              <h4>
+                movie foo
+              </h4>
+              <h6
+                className="h6 text-muted small"
+              >
+                Genres: 
+                genre foo, genre bar
+              </h6>
+              <img
+                alt="poster for movie foo"
+                className="img-fluid mt-3"
+                src="https://image.tmdb.org/t/p/w500/posterPath-1"
+              />
+            </div>
+          </Component>
+        </div>
+        <div
+          className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+          key="2"
+        >
+          <Component
+            movie={
+              Object {
+                "genreIds": Array [
+                  250,
+                ],
+                "genres": Array [
+                  "genre foo",
+                ],
+                "id": 2,
+                "posterPath": "/posterPath-2",
+                "title": "movie bar",
+                "voteAverage": 6,
+              }
+            }
+          >
+            <div
+              className="movies-list-item"
+            >
+              <h4>
+                movie bar
+              </h4>
+              <h6
+                className="h6 text-muted small"
+              >
+                Genres: 
+                genre foo
+              </h6>
+              <img
+                alt="poster for movie bar"
+                className="img-fluid mt-3"
+                src="https://image.tmdb.org/t/p/w500/posterPath-2"
+              />
+            </div>
+          </Component>
+        </div>
+        <div
+          className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+          key="3"
+        >
+          <Component
+            movie={
+              Object {
+                "genreIds": Array [
+                  240,
+                ],
+                "genres": Array [
+                  "genre foobar",
+                ],
+                "id": 3,
+                "posterPath": "/posterPath-3",
+                "title": "movie foobar",
+                "voteAverage": 8,
+              }
+            }
+          >
+            <div
+              className="movies-list-item"
+            >
+              <h4>
+                movie foobar
+              </h4>
+              <h6
+                className="h6 text-muted small"
+              >
+                Genres: 
+                genre foobar
+              </h6>
+              <img
+                alt="poster for movie foobar"
+                className="img-fluid mt-3"
+                src="https://image.tmdb.org/t/p/w500/posterPath-3"
+              />
+            </div>
+          </Component>
+        </div>
+      </div>
+    </Component>
+  </div>
+</Movies>
+`;
+
+exports[`route/Movies #Movies matches snapshots when nothing in store 1`] = `
+<Movies
+  genres={Array []}
+  getCinemaListings={[Function]}
+  isError={false}
+  movies={Array []}
+>
+  <div>
+    <h1
+      className="mb-4"
+    >
+      Movies On Cinema Now
+    </h1>
+    <Component
+      genres={Array []}
+      onGenreChanged={[Function]}
+      onRatingsChange={[Function]}
+      ratings={
+        Array [
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          6,
+          6.5,
+          7,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+        ]
+      }
+      selectedGenres={Array []}
+      selectedRating={3}
+    >
+      <div
+        className="mb-4"
+      >
+        <strong
+          className="d-block mb-2"
+        >
+          Lowest rating:
+        </strong>
+        <select
+          onChange={[Function]}
+          value={3}
+        >
+          <option
+            key="0.5"
+            value={0.5}
+          >
+            0.5
+          </option>
+          <option
+            key="1"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="1.5"
+            value={1.5}
+          >
+            1.5
+          </option>
+          <option
+            key="2"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="2.5"
+            value={2.5}
+          >
+            2.5
+          </option>
+          <option
+            key="3"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="3.5"
+            value={3.5}
+          >
+            3.5
+          </option>
+          <option
+            key="4"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="4.5"
+            value={4.5}
+          >
+            4.5
+          </option>
+          <option
+            key="5"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="5.5"
+            value={5.5}
+          >
+            5.5
+          </option>
+          <option
+            key="6"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="6.5"
+            value={6.5}
+          >
+            6.5
+          </option>
+          <option
+            key="7"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="7.5"
+            value={7.5}
+          >
+            7.5
+          </option>
+          <option
+            key="8"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="8.5"
+            value={8.5}
+          >
+            8.5
+          </option>
+          <option
+            key="9"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="9.5"
+            value={9.5}
+          >
+            9.5
+          </option>
+          <option
+            key="10"
+            value={10}
+          >
+            10
+          </option>
+        </select>
+      </div>
+      <strong
+        className="d-block mb-2"
+      >
+        Genres:
+      </strong>
+      <div
+        className="row"
+      />
+    </Component>
+    <Component
+      movies={Array []}
+    >
+      <div
+        className="row"
+      />
+    </Component>
+  </div>
+</Movies>
+`;

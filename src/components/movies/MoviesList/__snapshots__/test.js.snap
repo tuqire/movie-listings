@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/movies/MoviesList #MoviesList matches snapshots when movies in store 1`] = `
+<Component
+  movies={
+    Array [
+      Object {
+        "genreIds": Array [
+          250,
+          251,
+        ],
+        "genres": Array [
+          "foo genre",
+          "bar genre",
+        ],
+        "id": 1,
+        "posterPath": "/posterPath-1",
+        "title": "movie foo",
+        "voteAverage": 5,
+      },
+      Object {
+        "genreIds": Array [
+          250,
+        ],
+        "genres": Array [
+          "bar genre",
+        ],
+        "id": 2,
+        "posterPath": "/posterPath-2",
+        "title": "movie bar",
+        "voteAverage": 6,
+      },
+      Object {
+        "genreIds": Array [
+          240,
+        ],
+        "genres": Array [
+          "bar genre",
+          "foobar genre",
+        ],
+        "id": 3,
+        "posterPath": "/posterPath-3",
+        "title": "movie foobar",
+        "voteAverage": 8,
+      },
+    ]
+  }
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+      key="1"
+    >
+      <Component
+        movie={
+          Object {
+            "genreIds": Array [
+              250,
+              251,
+            ],
+            "genres": Array [
+              "foo genre",
+              "bar genre",
+            ],
+            "id": 1,
+            "posterPath": "/posterPath-1",
+            "title": "movie foo",
+            "voteAverage": 5,
+          }
+        }
+      >
+        <div
+          className="movies-list-item"
+        >
+          <h4>
+            movie foo
+          </h4>
+          <h6
+            className="h6 text-muted small"
+          >
+            Genres: 
+            foo genre, bar genre
+          </h6>
+          <img
+            alt="poster for movie foo"
+            className="img-fluid mt-3"
+            src="https://image.tmdb.org/t/p/w500/posterPath-1"
+          />
+        </div>
+      </Component>
+    </div>
+    <div
+      className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+      key="2"
+    >
+      <Component
+        movie={
+          Object {
+            "genreIds": Array [
+              250,
+            ],
+            "genres": Array [
+              "bar genre",
+            ],
+            "id": 2,
+            "posterPath": "/posterPath-2",
+            "title": "movie bar",
+            "voteAverage": 6,
+          }
+        }
+      >
+        <div
+          className="movies-list-item"
+        >
+          <h4>
+            movie bar
+          </h4>
+          <h6
+            className="h6 text-muted small"
+          >
+            Genres: 
+            bar genre
+          </h6>
+          <img
+            alt="poster for movie bar"
+            className="img-fluid mt-3"
+            src="https://image.tmdb.org/t/p/w500/posterPath-2"
+          />
+        </div>
+      </Component>
+    </div>
+    <div
+      className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+      key="3"
+    >
+      <Component
+        movie={
+          Object {
+            "genreIds": Array [
+              240,
+            ],
+            "genres": Array [
+              "bar genre",
+              "foobar genre",
+            ],
+            "id": 3,
+            "posterPath": "/posterPath-3",
+            "title": "movie foobar",
+            "voteAverage": 8,
+          }
+        }
+      >
+        <div
+          className="movies-list-item"
+        >
+          <h4>
+            movie foobar
+          </h4>
+          <h6
+            className="h6 text-muted small"
+          >
+            Genres: 
+            bar genre, foobar genre
+          </h6>
+          <img
+            alt="poster for movie foobar"
+            className="img-fluid mt-3"
+            src="https://image.tmdb.org/t/p/w500/posterPath-3"
+          />
+        </div>
+      </Component>
+    </div>
+  </div>
+</Component>
+`;
+
+exports[`components/movies/MoviesList #MoviesList matches snapshots when nothing in store 1`] = `
+<Component
+  movies={Array []}
+>
+  <div
+    className="row"
+  />
+</Component>
+`;

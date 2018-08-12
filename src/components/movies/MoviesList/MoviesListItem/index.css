@@ -1,0 +1,8 @@
+.movies-list-item h4 {
+  min-height: 56px;
+}
+
+.movies-list-item h6 {
+  line-height: 1.5;
+  min-height: 38px;
+}

@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/movies/MoviesFilter #MoviesFilter matches snapshots when genres in store 1`] = `
+<Component
+  genres={
+    Array [
+      Object {
+        "id": 250,
+        "name": "genre foo",
+      },
+      Object {
+        "id": 251,
+        "name": "genre bar",
+      },
+      Object {
+        "id": 240,
+        "name": "genre foobar",
+      },
+    ]
+  }
+  onGenreChanged={[Function]}
+  onRatingsChange={[Function]}
+  ratings={
+    Array [
+      1,
+      2,
+      3,
+      4,
+      5,
+    ]
+  }
+  selectedGenres={Array []}
+  selectedRating={1}
+>
+  <div
+    className="mb-4"
+  >
+    <strong
+      className="d-block mb-2"
+    >
+      Lowest rating:
+    </strong>
+    <select
+      onChange={[Function]}
+      value={1}
+    >
+      <option
+        key="1"
+        value={1}
+      >
+        1
+      </option>
+      <option
+        key="2"
+        value={2}
+      >
+        2
+      </option>
+      <option
+        key="3"
+        value={3}
+      >
+        3
+      </option>
+      <option
+        key="4"
+        value={4}
+      >
+        4
+      </option>
+      <option
+        key="5"
+        value={5}
+      >
+        5
+      </option>
+    </select>
+  </div>
+  <strong
+    className="d-block mb-2"
+  >
+    Genres:
+  </strong>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-6 col-4 col-lg-3"
+      key="250"
+    >
+      <label>
+        <input
+          checked={false}
+          className="genre-checkbox-250 mr-2"
+          name="genre-checkbox-250"
+          onChange={[Function]}
+          type="checkbox"
+          value={250}
+        />
+        genre foo
+      </label>
+    </div>
+    <div
+      className="col-sm-6 col-4 col-lg-3"
+      key="251"
+    >
+      <label>
+        <input
+          checked={false}
+          className="genre-checkbox-251 mr-2"
+          name="genre-checkbox-251"
+          onChange={[Function]}
+          type="checkbox"
+          value={251}
+        />
+        genre bar
+      </label>
+    </div>
+    <div
+      className="col-sm-6 col-4 col-lg-3"
+      key="240"
+    >
+      <label>
+        <input
+          checked={false}
+          className="genre-checkbox-240 mr-2"
+          name="genre-checkbox-240"
+          onChange={[Function]}
+          type="checkbox"
+          value={240}
+        />
+        genre foobar
+      </label>
+    </div>
+  </div>
+</Component>
+`;
+
+exports[`components/movies/MoviesFilter #MoviesFilter matches snapshots when nothing in store 1`] = `
+<Component
+  genres={Array []}
+  onGenreChanged={[Function]}
+  onRatingsChange={[Function]}
+  ratings={
+    Array [
+      1,
+      2,
+      3,
+      4,
+      5,
+    ]
+  }
+  selectedGenres={Array []}
+  selectedRating={1}
+>
+  <div
+    className="mb-4"
+  >
+    <strong
+      className="d-block mb-2"
+    >
+      Lowest rating:
+    </strong>
+    <select
+      onChange={[Function]}
+      value={1}
+    >
+      <option
+        key="1"
+        value={1}
+      >
+        1
+      </option>
+      <option
+        key="2"
+        value={2}
+      >
+        2
+      </option>
+      <option
+        key="3"
+        value={3}
+      >
+        3
+      </option>
+      <option
+        key="4"
+        value={4}
+      >
+        4
+      </option>
+      <option
+        key="5"
+        value={5}
+      >
+        5
+      </option>
+    </select>
+  </div>
+  <strong
+    className="d-block mb-2"
+  >
+    Genres:
+  </strong>
+  <div
+    className="row"
+  />
+</Component>
+`;
+
+exports[`components/movies/MoviesFilter #MoviesFilter matches snapshots when selected genres in store 1`] = `
+<Component
+  genres={
+    Array [
+      Object {
+        "id": 250,
+        "name": "genre foo",
+      },
+      Object {
+        "id": 251,
+        "name": "genre bar",
+      },
+      Object {
+        "id": 240,
+        "name": "genre foobar",
+      },
+    ]
+  }
+  onGenreChanged={[Function]}
+  onRatingsChange={[Function]}
+  ratings={
+    Array [
+      1,
+      2,
+      3,
+      4,
+      5,
+    ]
+  }
+  selectedGenres={
+    Array [
+      240,
+      251,
+    ]
+  }
+  selectedRating={1}
+>
+  <div
+    className="mb-4"
+  >
+    <strong
+      className="d-block mb-2"
+    >
+      Lowest rating:
+    </strong>
+    <select
+      onChange={[Function]}
+      value={1}
+    >
+      <option
+        key="1"
+        value={1}
+      >
+        1
+      </option>
+      <option
+        key="2"
+        value={2}
+      >
+        2
+      </option>
+      <option
+        key="3"
+        value={3}
+      >
+        3
+      </option>
+      <option
+        key="4"
+        value={4}
+      >
+        4
+      </option>
+      <option
+        key="5"
+        value={5}
+      >
+        5
+      </option>
+    </select>
+  </div>
+  <strong
+    className="d-block mb-2"
+  >
+    Genres:
+  </strong>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-6 col-4 col-lg-3"
+      key="250"
+    >
+      <label>
+        <input
+          checked={false}
+          className="genre-checkbox-250 mr-2"
+          name="genre-checkbox-250"
+          onChange={[Function]}
+          type="checkbox"
+          value={250}
+        />
+        genre foo
+      </label>
+    </div>
+    <div
+      className="col-sm-6 col-4 col-lg-3"
+      key="251"
+    >
+      <label>
+        <input
+          checked={true}
+          className="genre-checkbox-251 mr-2"
+          name="genre-checkbox-251"
+          onChange={[Function]}
+          type="checkbox"
+          value={251}
+        />
+        genre bar
+      </label>
+    </div>
+    <div
+      className="col-sm-6 col-4 col-lg-3"
+      key="240"
+    >
+      <label>
+        <input
+          checked={true}
+          className="genre-checkbox-240 mr-2"
+          name="genre-checkbox-240"
+          onChange={[Function]}
+          type="checkbox"
+          value={240}
+        />
+        genre foobar
+      </label>
+    </div>
+  </div>
+</Component>
+`;
